@@ -10,6 +10,8 @@ import MyAppoinments from './pages/MyAppoinments'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Appointments from './pages/Appointments'
+import Payment from './components/payment'
+
 
 
 const App = () => {
@@ -26,8 +28,8 @@ const App = () => {
         <Route path='/myprofile' element={<MyProfile />} />
         <Route path='/myappoinments' element={<MyAppoinments />} />
         <Route path='/appointments/:docId' element={<Appointments />} /> 
-     
-        
+        <Route path='/payment' element={<Payment />} />
+      
     
       </Routes>
       <Footer/>
